@@ -4,13 +4,7 @@ print("Hello! I'm CyHelp.")
 userName = input("What is your name?\n")
 print("Nice to meet you " + userName)
 
-""" #Recounts start of Cybersecurity
-todaysYear = input("What year is it?\n")
-timePassed = int(todaysYear) - breachYear
-print("Wow! That means it has been " + str(timePassed) + " years since your data breach !") """
-
 print("The field of Cybersecurity started in the 1970s when more and more information started being stored on computer systems and networks!")
-input("Press enter to continue\n")
 
 #Fun Fact
 print("Did you know that the first computer virus ever discovered was in the year 1971 and was called The Creeper!")
@@ -50,7 +44,7 @@ while giveInfo.lower() == "yes":
 print("Would you like to to take a short quiz to test your knowledge?")
 quiz = input("Type 'yes' or 'no'\n")
 if quiz.lower() == "yes":
-  print("What does the C in CIA Triad stand for? \n")
+  print("Question 1: What does the C in CIA Triad stand for? \n")
   print("a) Confidence")
   print("b) Confidentiality")
   print("c) Creativity")
@@ -60,6 +54,27 @@ if quiz.lower() == "yes":
     print("Your answer was correct!")
   else:
     print("Unfortunatley, your answer was incorrect. The correct asnwer was b) Confidentiality")
+  print("Question 2: What was the first computer virus called?")
+  print("a) The Creeper")
+  print("b) Virus")
+  print("c) Slammer")
+  print("d) None of the above")
+  answer1 = input()
+  if answer1.lower() == "a":
+    print("Your answer was correct!")
+  else:
+    print("Unfortunatley, your answer was incorrect. The correct asnwer was a) The Creeper")
+
+    print("Question 3: When did the field of cybersecurity begin?")
+  print("a) 1980")
+  print("b) 1950")
+  print("c) 1880")
+  print("d) 1970")
+  answer1 = input()
+  if answer1.lower() == "d":
+    print("Your answer was correct!")
+  else:
+    print("Unfortunatley, your answer was incorrect. The correct asnwer was d) 1970")
   
 
 #Chatbot ends conversation
